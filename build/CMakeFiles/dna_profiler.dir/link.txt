@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/dna_profiler.dir/src/bancodedados.cpp.o CMakeFiles/dna_profiler.dir/src/processador.cpp.o CMakeFiles/dna_profiler.dir/src/interface.cpp.o CMakeFiles/dna_profiler.dir/src/sequencia.cpp.o CMakeFiles/dna_profiler.dir/src/dna.cpp.o CMakeFiles/dna_profiler.dir/src/dna_profiler.cpp.o  -o dna_profiler 
