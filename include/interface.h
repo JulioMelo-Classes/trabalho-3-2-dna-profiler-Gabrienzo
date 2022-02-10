@@ -11,13 +11,15 @@ class Interface {
 
   void cabecalho();
 
-  void banco_carregando(std::string nomeBanco, std::string nomeSeq);
+  void banco_carregando(std::string nome, std::string comp);
   
   void banco_completo();
 
   void buscando();
 
   void imprimir(Dna);
+
+  void erroEntrada();
 
 };
 

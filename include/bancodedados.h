@@ -17,7 +17,7 @@ class BancoDeDados {
       @param nomeArq ponteiro que indica o nome do arquivo a ser lido
       @param comparador valor do indice do arquivo recebido pelo terminal
     */
-    void Carregar_Banco_DNA(std::string nomeArq, std::string comparador);
+    void Carregar_Banco_DNA(std::string nomeArq);
 
     void teste();
     

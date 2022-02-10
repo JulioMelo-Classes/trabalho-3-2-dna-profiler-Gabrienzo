@@ -15,7 +15,7 @@ class Sequencia {
 
   public:
 
-    void Carregar_Banco_Sequencia(std::string nomeArq, std::string comparador);
+    void Carregar_Banco_Sequencia(std::string nomeArq);
 
     void setDna_seq(std::string Dna_seq);
 

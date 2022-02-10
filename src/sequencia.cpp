@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void Sequencia::Carregar_Banco_Sequencia(string nomeArq, string comparador){
+void Sequencia::Carregar_Banco_Sequencia(string nomeArq){
   fstream arquivo;
   
   string linha;
@@ -13,11 +13,9 @@ void Sequencia::Carregar_Banco_Sequencia(string nomeArq, string comparador){
 
   arquivo.open(pasta_local, ios::in);
 
-  if(comparador == "-s"){
-    getline(arquivo, linha);
-    setDna_seq(linha);
-  }
-
+  getline(arquivo, linha);
+  setDna_seq(linha);
+  
   arquivo.close();
 }
 
