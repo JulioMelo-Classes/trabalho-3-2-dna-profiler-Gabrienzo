@@ -11,6 +11,7 @@ CMakeFiles/dna_profiler.dir/src/dna.cpp.o: ../src/dna.cpp
 CMakeFiles/dna_profiler.dir/src/dna_profiler.cpp.o: ../include/bancodedados.h
 CMakeFiles/dna_profiler.dir/src/dna_profiler.cpp.o: ../include/dna.h
 CMakeFiles/dna_profiler.dir/src/dna_profiler.cpp.o: ../include/interface.h
+CMakeFiles/dna_profiler.dir/src/dna_profiler.cpp.o: ../include/processador.h
 CMakeFiles/dna_profiler.dir/src/dna_profiler.cpp.o: ../include/sequencia.h
 CMakeFiles/dna_profiler.dir/src/dna_profiler.cpp.o: ../src/dna_profiler.cpp
 
