@@ -163,4 +163,19 @@ A saída deve ser exatamente como mostrada nas imagens (com cores e tudo!)
 
 **Translation to Pt-Br and Further Adaptation: Julio Melo, [julio@imd.ufrn.br](mailto:julio@imd.ufrn.br)**
 
+# Checkin 1
 
+1. Projete ao menos as 3 classes principais propostas para o programa. Não precisa implementar, apenas os .h são suficientes.
+- ok
+
+2. Implemente a classe responsável por ler e armazenar as informações do banco de dados de entrada.
+- ok, vou considerar mas veja o que te fale: a quantidade de colunas no banco não é fixa! Assim vc deve esperar um banco com 2, 3, 4, 1, exceto 0, colunas.
+
+3. Escreva o main instanciando a do item 2 mostrando que ela funciona para carregar e armazenar as informações.
+- ok, nesse ponto, eu acho que sua classe "Processador" poderia ser o main =). Ela só está delegando tarefas para outras classes, na prática é só uma camada a mais.
+
+4. Escreva parte da classe responsável pela interface com o usuário, de forma que o usuário consiga ao menos digitar a alguma palavra no loop principal, mostrando uma interface similar à interface sugerida na atividade 3.2.
+- ok
+
+5. Use a classe implementada em 4 no main, para mostrar que ela funciona. Não precisa realizar qualquer busca no banco, se a entrada do usuário estiver sendo recebida e impressa no terminal já conta para esse checkin.
+- ok
