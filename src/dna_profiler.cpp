@@ -6,7 +6,7 @@ using namespace std;
 int main(int argc, char* argv[]){
   Processador processador;
 
-  processador.carregarDados(argv, argc);
+  processador.carregarDados(argv);
 
   processador.Procurar();
 

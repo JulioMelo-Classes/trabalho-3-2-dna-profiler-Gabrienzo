@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void Processador::carregarDados(char *nomesArqs[], int numArqs){
+void Processador::carregarDados(char *nomesArqs[]){
     string data, seq, arg1,arg3;
     string dComp="-d",sComp="-s";
 
@@ -12,7 +12,6 @@ void Processador::carregarDados(char *nomesArqs[], int numArqs){
 
     Menu.cabecalho();
 
-    //Menu.banco_carregando()
     //carregando primeira parte
     if(arg1 == dComp){
         data = nomesArqs[2];

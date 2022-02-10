@@ -5,7 +5,7 @@ using namespace std;
 void Interface::cabecalho(){
   cout << "<-: ✧ :- ✦ -: ✧ :- 💠 -: ✧ :- ✦ -: ✧ :->" << endl << " Bem-vindo ao DNA Profiler versão 1.0" << endl << " Copyright © 2021, Selan R. dos Santos" << endl << "<-: ✧ :- ✦ -: ✧ :- 💠 -: ✧ :- ✦ -: ✧ :->" << endl << endl;
 
-  cout << "\033[3;40;34mEsse programa carrega uma base de DNAs e uma sequencia de DNA,\033[0m\t\t" << endl << "\033[3;40;34mambos carregados pelo usuario, e tenta realizar uma busca da \033[0m\t\t" << endl << "\033[3;40;34mmsequencia especifica dentro da base de DNA.\033[0m\t\t" << endl << endl;
+  cout << "\033[3;40;34mEsse programa carrega uma base de DNAs e uma sequencia de DNA,\033[0m\t\t" << endl << "\033[3;40;34mambos carregados pelo usuario, e tenta realizar uma busca da \033[0m\t\t" << endl << "\033[3;40;34msequencia especifica dentro da base de DNA.\033[0m\t\t" << endl << endl;
 }
 
 void Interface::banco_carregando(std::string nome, std::string comp){
