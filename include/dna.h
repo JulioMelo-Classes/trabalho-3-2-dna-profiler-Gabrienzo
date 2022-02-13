@@ -7,9 +7,7 @@ class Dna {
 
   private:
     std::string nome;
-    int str_AGAT; //#1
-    int str_AATG; //#2
-    int str_TATC; //#3
+    std::vector<std::pair<std::string, int>> sequencias_dna;
 
   public:
 
