@@ -1,4 +1,4 @@
-# Install script for directory: /home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo
+# Install script for directory: /home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
