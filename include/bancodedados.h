@@ -19,7 +19,7 @@ class BancoDeDados {
     */
     void Carregar_Banco_DNA(std::string nomeArq);
 
-    void teste();
+    std::vector<std::string> getSTR();
     
 
 };

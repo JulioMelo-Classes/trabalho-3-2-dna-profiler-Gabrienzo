@@ -65,8 +65,6 @@ void BancoDeDados::Carregar_Banco_DNA(string nomeArq){
   arquivo.close();
 }
 
-void BancoDeDados::teste(){
-  for(auto &pessoa : Banco_Dna){
-    cout << pessoa->getNome() << endl;
-  }
+std::vector<std::string> BancoDeDados::getSTR(){
+  return this->STR;
 }
