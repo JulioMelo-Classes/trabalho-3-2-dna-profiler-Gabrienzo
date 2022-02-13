@@ -10,6 +10,7 @@ class BancoDeDados {
   
   private:
     std::vector<Dna*> Banco_Dna;
+    std::vector<std::string> STR;
 
   public:
 

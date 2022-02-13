@@ -2,6 +2,7 @@
 #define DNA_H
 
 #include <iostream>
+#include <vector>
 
 class Dna {
 
@@ -11,8 +12,9 @@ class Dna {
 
   public:
 
-    Dna(std::string nome, int str_AGAT, int str_AATG, int str_TATC);
+    Dna(std::string nome);
     std::string getNome();
+    void setSTR(std::pair<std::string, int> sequencia);
 
 };
 

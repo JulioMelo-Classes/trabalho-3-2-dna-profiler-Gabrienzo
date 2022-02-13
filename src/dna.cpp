@@ -2,14 +2,17 @@
 
 using namespace std;
 
-Dna::Dna(string nome, int AGAT, int AATG, int TATC){
+Dna::Dna(string nome){
   this->nome = nome;
-  this->str_AGAT = AGAT;
-  this->str_AATG = AATG;
-  this->str_TATC = TATC;
-
 }
 
 std::string Dna::getNome(){
+  for(int i = 0; i<sequencias_dna.size();i++){
+    cout << sequencias_dna[i].first << "\t" << sequencias_dna[i].second << endl;
+  }
   return this->nome;
+}
+
+void Dna::setSTR(std::pair<std::string, int> sequencia){
+  this->sequencias_dna.push_back(sequencia);
 }

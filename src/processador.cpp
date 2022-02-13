@@ -50,7 +50,7 @@ void Processador::Procurar(){
     //verificar se o banco de dados foi carregado, caso seja true ele inicia a busca.
     if(verificador == true){
         Menu.buscando();
-        cout << sequencia.getDna_seq() << endl;
+        //cout << sequencia.getDna_seq() << endl;
         Banco.teste();
     }
 }
