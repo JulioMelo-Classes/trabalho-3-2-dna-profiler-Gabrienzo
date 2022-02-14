@@ -88,5 +88,8 @@ Dna BancoDeDados::Comparar_Dna(Dna dna){
 }
 
 void BancoDeDados::deletarBanco(){
-  //a fazer
+  for(auto dna : Banco_Dna){
+    delete dna;
+  }
+  Banco_Dna.clear();
 }

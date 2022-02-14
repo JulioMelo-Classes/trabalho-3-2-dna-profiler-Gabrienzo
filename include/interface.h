@@ -19,6 +19,10 @@ class Interface {
     @param comp indica se é o banco ou a sequencia.
   */  
   void banco_carregando(std::string nome, std::string comp);
+
+  /*! imprime a mensagem avisando que os arquivos estão sendo carregados.
+  */
+  void aguarde();
   
   /*! imprime a mensagem que indica que o banco de dados foi carregado.
   */
@@ -37,6 +41,8 @@ class Interface {
   */
   void erroEntrada();
 
+  /*! Imprime a mensagem indicando que nenhum DNA foi encontrado na comparação da sequencia com o banco de dados.
+  */
   void noMatch();
 
 };

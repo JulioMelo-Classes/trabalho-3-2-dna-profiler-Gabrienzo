@@ -1,0 +1,6 @@
+./dna_profiler -d data.csv -s sequence_alice.txt
+./dna_profiler -s sequence_bob.txt -d data.csv
+./dna_profiler -d data.csv -s sequence_charlie.txt
+./dna_profiler -d data.csv -s sequence_no_match.txt
+./dna_profiler -d data.csv -g sequence_error.txt
+./dna_profiler -h error.csv -s sequence_alice.txt

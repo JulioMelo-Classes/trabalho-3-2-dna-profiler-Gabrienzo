@@ -19,10 +19,19 @@ class BancoDeDados {
     */
     void Carregar_Banco_DNA(std::string nomeArq);
 
+    /*! Método get que retorna o vector de strings referentes as sequencias
+      @return vector de strings STR
+    */
     std::vector<std::string> getSTR();
 
+    /*! metodo que comprar o DNA passado como parametro com todos os outros DNAs do banco de dados
+      @param dna passado como parametro para comparação
+      @return dna do banco de dados similar ao passado como parametro
+    */
     Dna Comparar_Dna(Dna dna);
 
+    /*! Metodo que deleta o Banco_dna.
+    */
     void deletarBanco();
 
 };

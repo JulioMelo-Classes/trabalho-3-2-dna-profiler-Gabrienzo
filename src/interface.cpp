@@ -17,8 +17,11 @@ void Interface::banco_carregando(std::string nome, std::string comp){
     cout << "\x1B[34m❖\033[0m Lendo arquivo com o banco de DNAs ["<< nome_cor << "]" << endl;
   }else{
     cout << "\x1B[34m❖\033[0m Lendo arquivo contendo a sequencia de DNA ["<< nome_cor << "]" << endl;
-    cout << "\x1B[34m❖\033[0m Processando data, espere um pouco." << endl << endl;
   }
+}
+
+void Interface::aguarde(){
+  cout << "\x1B[34m❖\033[0m Processando data, espere um pouco..." << endl << endl;
 }
 
 void Interface::erroEntrada(){

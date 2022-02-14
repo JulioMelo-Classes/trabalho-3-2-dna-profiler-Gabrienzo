@@ -40,6 +40,7 @@ void Processador::carregarDados(char *nomesArqs[]){
     }
 
     if(verificador == true){
+        Menu.aguarde();
         Menu.banco_completo();
     }
     
@@ -56,7 +57,6 @@ void Processador::Procurar(){
         Menu.buscando();
         sequencia.procurar();
         Menu.imprimir(Banco.Comparar_Dna(sequencia.ler_ordem()), sequencia.getOrdem(), sequencia.getDna_seq());
-        Banco.deletarBanco();
     }
 }
 
