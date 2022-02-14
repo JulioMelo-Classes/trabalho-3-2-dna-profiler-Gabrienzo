@@ -17,6 +17,10 @@ void Dna::setSTR(std::pair<std::string, int> sequencia){
   this->sequencias_dna.push_back(sequencia);
 }
 
-void Dna::setVerif(int j){
-  this->sequencias_dna[j] = make_pair(sequencias_dna[j].first,sequencias_dna[j].second+1);
+void Dna::setVerif(int j, int quantidade){
+  this->sequencias_dna[j] = make_pair(sequencias_dna[j].first, quantidade);
+}
+
+int Dna::getValorSeq(int posicao){
+  return sequencias_dna[posicao].second;
 }

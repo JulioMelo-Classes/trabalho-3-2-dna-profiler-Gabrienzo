@@ -32,12 +32,8 @@ void Sequencia::setSTR(std::string Str){
 }
 
 void Sequencia::procurar(){
-  Dna sequencia_dna("Verificador");
   int verif = 0;
-  //setando os valores base para sequencia_dna
-  for(int z=0; z<STR_seq.size(); z++){
-    sequencia_dna.setSTR(make_pair(STR_seq[z],0));
-  }
+  
   //analisando a sequencia e contando os str
   for(int i=0; i < (Dna_seq.length()-3); i++){
     //pegando a sequencia atual
@@ -45,11 +41,9 @@ void Sequencia::procurar(){
     for(int k=i; k<i+4; k++){
       sequencia_atual.push_back(Dna_seq[k]);
     }
-    cout << sequencia_atual << endl;
 
     for(int j=0; j<STR_seq.size(); j++){
       if(sequencia_atual == STR_seq[j]){
-        sequencia_dna.setVerif(j);
         for(int l=0;l<4;l++){
           this->ordem.push_back(j+1);
         }
@@ -65,9 +59,35 @@ void Sequencia::procurar(){
     verif = 0;
   }
 
-  
-  for(int b=0;b<ordem.size();b++){
-    cout << ordem[b];
+}
+
+Dna Sequencia::ler_ordem(){
+  Dna sequencia_dna("Verificador");
+
+  for(int z=0; z<STR_seq.size(); z++){
+    sequencia_dna.setSTR(make_pair(STR_seq[z],0));
   }
-  cout << endl;
+
+  for(int i=0; i<STR_seq.size(); i++){
+    int n_sequencia = 0;
+    int maior_sequencia = 0;
+
+    for(int k=0; k<ordem.size()-3; k++){
+      if(i+1 == ordem[k] && i+1 == ordem[k+3]){
+        n_sequencia ++;
+        if(n_sequencia > maior_sequencia){
+          maior_sequencia = n_sequencia;
+        }
+        k+=3;
+
+      } else {
+        n_sequencia = 0;
+      }
+    }
+
+    sequencia_dna.setSTR(make_pair(STR_seq[i], maior_sequencia));
+  }
+
+
+  return sequencia_dna;
 }

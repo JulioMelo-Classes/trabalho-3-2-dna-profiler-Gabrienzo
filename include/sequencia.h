@@ -31,6 +31,8 @@ class Sequencia {
 
     void procurar();
 
+    Dna ler_ordem();
+
 };
 
 #endif

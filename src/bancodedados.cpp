@@ -68,3 +68,18 @@ void BancoDeDados::Carregar_Banco_DNA(string nomeArq){
 std::vector<std::string> BancoDeDados::getSTR(){
   return this->STR;
 }
+
+Dna BancoDeDados::Comparar_Dna(Dna dna){
+  for(auto &dna_banco : Banco_Dna){
+    int verif = 0;
+
+    for(int i=0; i<STR.size(); i++){
+      if(dna_banco->getValorSeq(i) == dna.getValorSeq(i)){
+        verif++;
+      }
+    }
+    if(verif = STR.size()){
+      return *dna_banco;
+    }
+  }
+}

@@ -55,6 +55,7 @@ void Processador::Procurar(){
         }
         Menu.buscando();
         sequencia.procurar();
+        Banco.Comparar_Dna(sequencia.ler_ordem());
     }
 }
 
