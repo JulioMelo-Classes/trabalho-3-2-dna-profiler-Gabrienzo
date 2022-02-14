@@ -26,6 +26,7 @@ CMakeFiles/dna_profiler.dir/src/processador.cpp.o: ../include/processador.h
 CMakeFiles/dna_profiler.dir/src/processador.cpp.o: ../include/sequencia.h
 CMakeFiles/dna_profiler.dir/src/processador.cpp.o: ../src/processador.cpp
 
+CMakeFiles/dna_profiler.dir/src/sequencia.cpp.o: ../include/dna.h
 CMakeFiles/dna_profiler.dir/src/sequencia.cpp.o: ../include/sequencia.h
 CMakeFiles/dna_profiler.dir/src/sequencia.cpp.o: ../src/sequencia.cpp
 
