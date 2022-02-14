@@ -85,9 +85,13 @@ Dna Sequencia::ler_ordem(){
       }
     }
 
-    sequencia_dna.setSTR(make_pair(STR_seq[i], maior_sequencia));
+    sequencia_dna.setQtd(i, maior_sequencia);
   }
 
 
   return sequencia_dna;
+}
+
+std::vector<int> Sequencia::getOrdem(){
+  return this->ordem;
 }

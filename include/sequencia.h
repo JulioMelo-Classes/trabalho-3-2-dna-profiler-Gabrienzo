@@ -33,6 +33,8 @@ class Sequencia {
 
     Dna ler_ordem();
 
+    std::vector<int> getOrdem();
+
 };
 
 #endif

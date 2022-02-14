@@ -15,9 +15,12 @@ class Dna {
     Dna(std::string nome);
     std::string getNome();
     void setSTR(std::pair<std::string, int> sequencia);
-    void setVerif(int j, int quantidade);
+    void setNome(std::string nome);
+    void setQtd(int j, int quantidade);
 
     int getValorSeq(int posicao);
+    int getTamSeq();
+    std::string getSTR(int i);
 
 };
 

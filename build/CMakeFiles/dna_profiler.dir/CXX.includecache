@@ -6,25 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/include/dna.h
-iostream
--
-vector
--
-
-/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/include/sequencia.h
+/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/include/bancodedados.h
 dna.h
-/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/include/dna.h
+/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/include/dna.h
 iostream
 -
 vector
 -
 
-/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/src/sequencia.cpp
-../include/sequencia.h
-/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/include/sequencia.h
+/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/include/dna.h
+iostream
+-
+vector
+-
+
+/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/src/bancodedados.cpp
+../include/bancodedados.h
+/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/include/bancodedados.h
 fstream
 -
 sstream
+-
+cstring
 -
 

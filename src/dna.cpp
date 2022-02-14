@@ -7,9 +7,6 @@ Dna::Dna(string nome){
 }
 
 std::string Dna::getNome(){
-  for(int i = 0; i<sequencias_dna.size();i++){
-    cout << sequencias_dna[i].first << "\t" << sequencias_dna[i].second << endl;
-  }
   return this->nome;
 }
 
@@ -17,10 +14,22 @@ void Dna::setSTR(std::pair<std::string, int> sequencia){
   this->sequencias_dna.push_back(sequencia);
 }
 
-void Dna::setVerif(int j, int quantidade){
+void Dna::setNome(std::string nome){
+  this->nome = nome;
+}
+
+void Dna::setQtd(int j, int quantidade){
   this->sequencias_dna[j] = make_pair(sequencias_dna[j].first, quantidade);
 }
 
 int Dna::getValorSeq(int posicao){
-  return sequencias_dna[posicao].second;
+  return this->sequencias_dna[posicao].second;
+}
+
+int Dna::getTamSeq(){
+  return this->sequencias_dna.size();
+}
+
+std::string Dna::getSTR(int i){
+  return this->sequencias_dna[i-1].first;
 }

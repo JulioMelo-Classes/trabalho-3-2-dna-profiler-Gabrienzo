@@ -55,10 +55,11 @@ void Processador::Procurar(){
         }
         Menu.buscando();
         sequencia.procurar();
-        Banco.Comparar_Dna(sequencia.ler_ordem());
+        Menu.imprimir(Banco.Comparar_Dna(sequencia.ler_ordem()), sequencia.getOrdem(), sequencia.getDna_seq());
+        Banco.deletarBanco();
     }
 }
 
 void Processador::Finalizar(){
-    //a fazer
+    Banco.deletarBanco();
 }

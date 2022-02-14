@@ -72,14 +72,21 @@ std::vector<std::string> BancoDeDados::getSTR(){
 Dna BancoDeDados::Comparar_Dna(Dna dna){
   for(auto &dna_banco : Banco_Dna){
     int verif = 0;
-
     for(int i=0; i<STR.size(); i++){
       if(dna_banco->getValorSeq(i) == dna.getValorSeq(i)){
         verif++;
       }
     }
-    if(verif = STR.size()){
-      return *dna_banco;
+    if(verif == STR.size()){
+      dna.setNome(dna_banco->getNome());
+      return dna;
     }
   }
+
+  Dna noMatch("nada");
+  return noMatch;
+}
+
+void BancoDeDados::deletarBanco(){
+  //a fazer
 }

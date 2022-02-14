@@ -31,11 +31,13 @@ class Interface {
   /*! imprime o resultado da busca.
     @param Dna dna a ser impresso.
   */
-  void imprimir(Dna);
+  void imprimir(Dna pessoa, std::vector<int> ordem, std::string Dna_seq);
 
   /*! imprime a mensagem indicando um erro de entrada.
   */
   void erroEntrada();
+
+  void noMatch();
 
 };
 

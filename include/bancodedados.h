@@ -22,7 +22,8 @@ class BancoDeDados {
     std::vector<std::string> getSTR();
 
     Dna Comparar_Dna(Dna dna);
-    
+
+    void deletarBanco();
 
 };
 
