@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/include/dna.h
+/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/include/dna.h
 iostream
 -
 vector
 -
 
-/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/include/sequencia.h
+/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/include/sequencia.h
 dna.h
-/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/include/dna.h
+/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/include/dna.h
 iostream
 -
 vector
 -
 
-/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/src/sequencia.cpp
+/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/src/sequencia.cpp
 ../include/sequencia.h
-/home/gabrienzo/atvd1/trabalho-3-2-dna-profiler-Gabrienzo/include/sequencia.h
+/home/jc_silva/Projects/Linguagem_de_Programação_I/trabalho-3-2-dna-profiler-Gabrienzo/include/sequencia.h
 fstream
 -
 sstream
