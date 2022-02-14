@@ -29,8 +29,8 @@ cd build
  ./dna_profiler -s <sequencia_especifica_a_ser_lida.txt> -d <arquivo_com_o_banco_de_dados.txt>
 ```
 -d é um indicador para o arquivo de dados.
--s é um indicador para o arquivo com a sequencia
-a ordem deles pode ser alteradas.
+-s é um indicador para o arquivo com a sequencia.
+A ordem deles pode ser alteradas.
 
 ***
   
