@@ -30,7 +30,7 @@ cd build
 ```
 -d é um indicador para o arquivo de dados.
 -s é um indicador para o arquivo com a sequencia.
-A ordem deles pode ser alteradas.
+A ordem deles podem ser alterados.
 
 ***
   
