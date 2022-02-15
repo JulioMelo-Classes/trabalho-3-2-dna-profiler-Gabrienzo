@@ -36,4 +36,4 @@ A ordem deles podem ser alterados.
   
 ## Como executar o conjunto dos testes planejados.
 Deixamos alguns comandos basicos prefeitos em [script.txt](/data/script.txt)
-Dessa forma basta copiar os comandos e testar-los no console, cada um apresenta uma condição especifica do programa: 3 dnas diferentes para serem lidos, 1 no match, 2 erros de entrada e 1 troca de indicadores.
+Dessa forma basta copiar os comandos e testar-los no console, cada um apresenta uma condição especifica do programa: 3 dnas diferentes para serem lidos, 1 no match, 2 erros de entrada e 1 troca de indicadores. Alem disso tem um arquivo extra de data com 4 STRs e duas sequencias adicionais para serem testadas.
